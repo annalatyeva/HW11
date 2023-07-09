@@ -1,0 +1,21 @@
+.container {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    border: 2px gray solid;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+input {
+    height: 50px;
+    width: 70px;
+    margin: 5px;
+    font-size: 20px;
+}
+button {
+width: 24%;
+margin: 20px;
+padding: 10px;
+font-size: 20px;
+}

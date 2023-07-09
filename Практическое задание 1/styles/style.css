@@ -1,0 +1,62 @@
+h1 {
+    text-align: center;
+}
+.container {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-card {
+    border: 1px solid black;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+}
+
+.product-icon {
+    width: 160px;
+    height: 160px;
+    padding: 5px;
+}
+.img-and-description {
+    display: flex;
+}
+h2 {
+    width: max-content;
+    margin-bottom: 30px;
+}
+.product-details {
+    width: max-content;
+    margin: 15px;
+}
+.price {
+    font-size: 22px;
+    font-weight: 700;
+    display: flex;
+    margin: 0 50px;
+    justify-content: space-between;
+    align-items: center;
+    width: 12%;
+    height: 95%;
+}
+.price-item {
+    margin-right: 10px;
+}
+.total {
+    margin-right: 10px;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+button {
+    margin: 40px;
+    height: 40px;
+    width: 65%;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+}
